@@ -20,7 +20,7 @@ namespace Microsoft.Bing.AspNetCore.Connections.InlineSocket
 
         public static string GetNextId() => GenerateId(Interlocked.Increment(ref _lastId));
 
-#if NETCOREAPP3_0
+#if NETCOREAPP3_1
         private static string GenerateId(long id)
         {
             return string.Create(13, id, (buffer, value) =>

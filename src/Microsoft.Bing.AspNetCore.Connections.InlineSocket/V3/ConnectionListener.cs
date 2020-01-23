@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT license.
 
-#if NETCOREAPP3_0
+#if NETCOREAPP3_1
 using System;
 using System.Collections.Generic;
 using System.Net;
